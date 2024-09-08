@@ -16,3 +16,32 @@ h3 {
 
 
 
+.item:first-child{
+    color:green;
+}
+.item:first-child:hover{
+    color:red;
+}
+.item:nth-child(even){
+    color:pink;
+}
+.item:last-child{
+    color:yellow;
+}
+.item:nth-child(3){
+    color:blue;
+}
+p:active{
+    color:purple;
+}
+.item:last-child>p:nth-child(odd){
+    color:aqua;
+}
+.box:hover{
+    border:none;
+    outline: 2px solid red;
+}
+.box:focus{
+    border:none;
+    outline: 2px solid green;
+}
